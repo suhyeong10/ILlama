@@ -1,5 +1,5 @@
 # 🩺 ILlama
-> Leveraging Knowledge Graph-Enhanced LLMs for Context-Aware Medical Consultation (EMNLP 2025).  
+> *Leveraging Knowledge Graph-Enhanced LLMs for Context-Aware Medical Consultation* (EMNLP 2025).  
 > A novel RAG framework leveraging structured medical knowledge via subgraphs for context-aware, hallucination-reduced medical consultations.
 
 ---
