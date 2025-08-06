@@ -36,7 +36,7 @@ illama = ILlama(
         reranker_name='Codingchild/medical-bge-reranker-large',
     )
 
-asycn def main():
+async def main():
     # prepare illama model & prompt
     chain = illama.prepare_illama(
         generation_type='w_rag'
