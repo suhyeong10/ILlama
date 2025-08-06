@@ -5,8 +5,8 @@
 ---
 
 ## 🗝️ Key feature
-- ✅ **Enhanced Factual Reliability**: Integrates explicit causal medical relationships to significantly reduce inaccuracies.
-- 🔎 **Precise Contextual Retrieval**: Leverages transformed knowledge sub-units and vector search for accurate information integration.
+- ✅ **Reliable Medical Facts**: Reduces errors with clear causal relationships.
+- 🔎 **Accurate Retrieval**: Uses granular knowledge and vector search for higher precision.
 - 💉 **Superior Clinical Utility**: Achieves state-of-the-art performance for reliable and practical medical guidance.
 
 <p align="center">
