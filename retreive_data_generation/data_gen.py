@@ -10,6 +10,21 @@ from retreive_data_generation.prompts import generate_prompt
 set_seed(42)
 
 class DataGenerator:
+    """
+    This class is used to generate data for the model.
+    The data is generated based on the context and the question.
+    The data is generated with the model, the generator, and the evaluator.
+
+    Args:
+        model_name: str, the name of the model to use
+        output_path: str, the path to save the data
+        max_attempts: int, the maximum number of attempts to generate the data
+        max_new_tokens: int, the maximum number of tokens to generate
+        device: str, the device to use
+
+    Returns:
+        DataGenerator, the instance of the class
+    """
     def __init__(
         self, 
         model_name: str, 

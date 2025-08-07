@@ -20,6 +20,21 @@ SYSTEM_PROMPT['custom'] = """
 
 
 class PromptGenerator:
+    """
+    This class is used to generate prompts for the model.
+    The prompts are generated based on the type of prompt to generate.
+    The type of prompt can be 'w_rag' or 'wo_rag' or 'custom'.
+    If the type is 'w_rag', the prompt will be generated with the context and the question.
+    If the type is 'wo_rag', the prompt will be generated with the question.
+    If the type is 'custom', the prompt will be generated with the custom prompt.
+
+    Args:
+        gen_type: str, the type of prompt to generate
+        prompt: str, the prompt to generate
+
+    Returns:
+        ChatPromptTemplate, the prompt template
+    """
     def __init__(self, gen_type: str = 'w_rag', prompt: str = None):
         self.gen_type = gen_type
         if gen_type == 'w_rag':

@@ -34,6 +34,10 @@ def get_llm(
     top_k: Optional[int] = None,
     dtype: str = "bfloat16",
 ) -> HuggingFacePipeline:
+    """
+    This function is used to get the LLM pipeline.
+    The LLM pipeline is used to generate the response for the question.
+    """
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(
@@ -65,7 +69,11 @@ def get_chain(
     retriever: Optional[ContextualCompressionRetriever] = None,
     llm: HuggingFacePipeline = None,
 ) -> Runnable:
-
+    """
+    This function is used to get the chain.
+    The chain is used to generate the response for the question.
+    """
+    
     if retriever is not None:
         chain = (
             {"context": retriever | format_docs, "question": RunnablePassthrough()}

@@ -19,6 +19,12 @@ from langchain_huggingface import HuggingFaceEmbeddings
 reordering = LongContextReorder()
 
 class PDFIngestor:
+    """
+    This class is used to ingest the PDF files and create a vector store.
+    The vector store is used to retrieve the most relevant documents for the question.
+    The documents are split into chunks and then embedded.
+    The chunks are then stored in a FAISS vector store.
+    """
     def __init__(
             self,
             model_name,

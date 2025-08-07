@@ -12,6 +12,38 @@ from illama.prompts import PromptGenerator
 
 
 class ILlama:
+    """
+    This class is used to create a chain of the model.
+    The chain is used to generate the response for the question.
+    The chain is created with the model, the retriever, and the prompt.
+    The retriever is used to retrieve the most relevant documents for the question.
+
+    Args:
+        model_name: str, the name of the model to use
+        max_new_tokens: int, the maximum number of tokens to generate
+        do_sample: bool, whether to sample from the model
+        num_beams: int, the number of beams to use
+        repetition_penalty: float, the repetition penalty
+        length_penalty: float, the length penalty  
+        early_stopping: bool, whether to early stop the generation
+        no_repeat_ngram_size: int, the size of the ngram to avoid repeating
+        temperature: float, the temperature of the model
+        top_p: float, the top p of the model
+        top_k: int, the top k of the model
+        llm_dtype: str, the dtype of the model
+        retriever_dtype: str, the dtype of the retriever
+        retriever_name: str, the name of the retriever to use
+        reranker_name: str, the name of the reranker to use
+        pdf_path: str, the path to the PDF files
+        text_save_path: str, the path to save the text
+        vector_store_path: str, the path to save the vector store
+        retrieve_k: int, the number of documents to retrieve
+        retrieve_n: int, the number of documents to retrieve
+        use_rag: bool, whether to use the RAG
+
+    Returns:
+        ILlama, the instance of the class
+    """
     def __init__(
         self,
         model_name: str,
