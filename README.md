@@ -56,13 +56,13 @@ asyncio.run(main())
 ## 📜 Citation
 If you find this work helpful, please consider citing us:
 ```bibtex
-@inproceedings{anonymous2025leveraging,
-    title={Leveraging Knowledge Graph-Enhanced {LLM}s for Context-Aware Medical Consultation},
-    author={Anonymous},
-    booktitle={Submitted to ACL Rolling Review - May 2025},
-    year={2025},
-    url={https://openreview.net/forum?id=2oOy0FvWcB},
-    note={under review}
+@inproceedings{
+  park2025leveraging,
+  title={Leveraging Knowledge Graph-Enhanced {LLM}s for Context-Aware Medical Consultation},
+  author={Su-Hyeong Park and Ho-Beom Kim and Seong-Jin Park and Dinara Aliyeva and Kang-Min Kim},
+  booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
+  year={2025},
+  url={https://openreview.net/forum?id=fEOxao65k9}
 }
 ```
 
