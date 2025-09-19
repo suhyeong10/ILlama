@@ -20,12 +20,7 @@
 ---
 
 ## 📖 Usage
-### 1. Install Dependencies
-```
-pip install -r requirements.txt
-```
-
-### 2. Quick Start Example
+### Quick Start Example
 ```python
 import asycnio
 from illama.illama import ILlama
