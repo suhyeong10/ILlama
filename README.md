@@ -10,11 +10,11 @@
 - 💉 **Superior Clinical Utility**: Achieves state-of-the-art performance for reliable and practical medical guidance.
 
 <p align="center">
-  <img src="./assets/ILlama.jpg" width="70%" alt="Framework Overview">
+  <img src="./assets/ILlama.jpg" width="80%" alt="Framework Overview">
 </p>
 
 <p align="center">
-  <img src="./assets/data_gen.jpg" width="70%" alt="Data Generation Pipeline">
+  <img src="./assets/data_gen.jpg" width="80%" alt="Data Generation Pipeline">
 </p>
 
 ---
