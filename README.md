@@ -20,6 +20,12 @@
 ---
 
 ## 📖 Usage
+### Installation
+Install dependent Python libraries by running the command below.
+```
+pip install -r requirements.txt
+```
+
 ### Quick Start Example
 ```python
 import asycnio
