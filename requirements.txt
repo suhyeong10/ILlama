@@ -1,0 +1,11 @@
+bitsandbytes==0.47.0
+langchain==0.3.16
+langchain-community==0.3.14
+langchain-core==0.3.16  
+langchain-huggingface==0.1.4
+nltk==3.9.1
+peft==0.14.0
+rouge_score==0.1.2
+torch==2.5.0
+transformers==4.47.1
+trl==0.17.0
