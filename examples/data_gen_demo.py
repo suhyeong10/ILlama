@@ -4,7 +4,7 @@ import json
 from tqdm import tqdm
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from retreive_data_generation.data_gen import DataGenerator
+from retrieve_data_generation.data_gen import DataGenerator
 
 def main():
     # 1. load context data
